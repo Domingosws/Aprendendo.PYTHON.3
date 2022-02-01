@@ -5,4 +5,5 @@ import math
 seno=math.sin(math.radians(ângulo))
 print('O angulo de {} tem o SENO de {}'.format(angulo,seno))
 cosseno=math.cos(math.radians(ângulo))
-print('o ângulo')
+print('O ângulo de {}tem o COSENO de {}'.format(ângulo,cosseno))
+tangente=
