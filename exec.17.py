@@ -1,7 +1,7 @@
 #Seno, cosseno e tangente
 #Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno, e tangente desse ângulo.
 import math #importar biblioteca matematica.
-ângulo = float(input('\033[1;31m Digite o ângulo que você deseja:\033[m'))
+ângulo = float(input('\033[1;31mDigite o ângulo que você deseja:\033[m'))
 seno = math.sin(math.radians(ângulo))
 print('\033[1;36mO angulo de {} tem o SENO de {:.2f}'.format(ângulo,seno))
 cosseno=math.cos(math.radians(ângulo))
