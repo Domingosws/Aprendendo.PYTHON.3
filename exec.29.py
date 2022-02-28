@@ -4,3 +4,5 @@
 from random import randint
 computador=randint(0,5)#Faz o computador "PESSAR# "
 print('-=-'*20)
+print('Vou pesar em um núméro entre 0 e 5 , tente adivinhar')
+print('-=-'*20)
