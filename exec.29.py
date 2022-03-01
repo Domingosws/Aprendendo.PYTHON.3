@@ -6,3 +6,7 @@ computador=randint(0,5)#Faz o computador "PESSAR# "
 print('-=-'*20)
 print('Vou pesar em um núméro entre 0 e 5 , tente adivinhar')
 print('-=-'*20)
+jogador=int('Ém que número eu pensei?')
+if jogador==computador:
+    print('PARABÉNS! Você conceguiu me vencer!')
+    
