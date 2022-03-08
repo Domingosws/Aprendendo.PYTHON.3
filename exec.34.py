@@ -5,13 +5,16 @@ b=int(input('Segundo valor:'))
 c=int(input('Terceiro valor:\033[m'))
 #Verificando quem é menor
 menor = a
-if b<a and b<c:
+if b < a and b < c:
     menor = b
-if c<a and c<b:
+if c < a and c < b:
     menor = c
 print('\033[1;31mO menor valor digitado foi {}\033[m'.format(menor))
 #verificando quem é maior
 maior = a
-if b>a and a>c:
+if b > a and a > c:
     maior = b
-    
+if c > a and a > b:
+    maior = c
+print('\033[1;36mO maior valor digitado foi {}\033[m'.format(maior))
+
