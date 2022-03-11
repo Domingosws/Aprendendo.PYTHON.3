@@ -1,1 +1,2 @@
 #execio novo!
+var=
