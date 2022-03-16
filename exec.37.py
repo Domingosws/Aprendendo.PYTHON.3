@@ -1,1 +1,1 @@
-# Novo execicio hoje!
+# Condições em Pyton(if.elif)
