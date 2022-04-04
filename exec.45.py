@@ -25,4 +25,7 @@ elif opção == 4:
     totparc = int(input('Quantas pacelas?'))
     parcela = total / totparc
     print('Sua compra será pacelada em {}x de R${:.2f} COM JUROS.'.format(totparc, parcela))
+else:
+    total = preço
+    print('OPÇÃO INVÁLIDA de pagamento. Tente novamente.')
 print('Sua compra de R${:.2f} vai custar R${:.2f} no final.'.format(preço, total))
