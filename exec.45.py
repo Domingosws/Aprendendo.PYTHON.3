@@ -19,7 +19,10 @@ elif opção == 2:
 elif opção == 3:
     total = preço
     parcelado = total / 2
-    print('Sua compra sera pacelada em 2x de {:.2f}.'.format(parcelado))
+    print('Sua compra sera pacelada em 2x de {:.2f} SEM JUROS'.format(parcelado))
 elif opção == 4:
     total = preço + (preço * 20 / 100)
+    totparc = int(input('Quantas pacelas?'))
+    parcela = total / totparc
+    print('Sua compra será pacelada em {}x de R${:.2f} COM JUROS.'.format(totparc, parcela))
 print('Sua compra de R${:.2f} vai custar R${:.2f} no final.'.format(preço, total))
