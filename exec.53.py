@@ -3,7 +3,7 @@
 núm = int(input('Digite um numero: '))
 for c in range(1, núm +1):
     if núm % c == 0:
-    print(' 'end='')
-else:
-    print('')
-print('')
+        print('\033[1;34m')
+    else:
+    print('\033[m')
+print('{}'.format(c), end ='')
