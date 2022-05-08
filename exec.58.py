@@ -1,1 +1,2 @@
-#Fazendo o execício.....
+#Repetições em Python (while)
+#Validação de Dados
