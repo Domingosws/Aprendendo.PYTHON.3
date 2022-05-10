@@ -4,7 +4,7 @@
 #– à vista no cartão: 5% de desconto
 #– em até 2x no cartão: preço formal
 #– 3x ou mais no cartão: 20% de juros
-print('{:=^40}'.format(' LOJA BARATO TODA VIDA '))
+print('{:=^40}'.format('\033[1;32m LOJA BARATO TODA VIDA \033[m'))
 preço = float(input('preço das compras: R$'))
 print(''''FORMAS DE PAGAMENTO.
 [ 1 ] Á vista no dinheiro/cheque
