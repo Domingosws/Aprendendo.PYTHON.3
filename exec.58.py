@@ -5,4 +5,4 @@
 sexo = str(input('\033[1;34mInforme seu sexo: [M/F]\033[m')).strip().upper()[0]
 while sexo not in 'MmFf':
     sexo = str(input('Dados invalidos. Por  favor, informe seu sexo ')).strip().upper()[0]
-print('Sexo {} registrado com sucesso'.format(sexo))
+print('\033[1;34mSexo {} registrado com sucesso\033[m'.format(sexo))
