@@ -19,3 +19,4 @@ while not acertou:
             print('Menos... Tente mais uma vez.')
 
 print('\033[1;35mAcertou com {} tentativas parabéns!\033[m'.format(palpites))
+#Fim de algoritimo.
