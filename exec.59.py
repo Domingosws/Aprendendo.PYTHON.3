@@ -12,4 +12,10 @@ while not acertou:
     palpites += 1
     if jogador == computador:
         acertou = True
-print('\033[1;31mAcertou com {} palpites!\033[m'.format(palpites))
+    else:
+        if jogador < computador:
+            print('Mais... Tente mais uma vez.')
+        elif jogador > computador:
+            print('Menos... Tente mais uma vez.')
+
+print('\033[1;35mAcertou com {} tentativas parabéns!\033[m'.format(palpites))
