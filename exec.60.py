@@ -6,4 +6,4 @@
 #[ 4 ] novos números
 #[ 5 ] sair do programa
 #Seu programa deverá realizar a operação solicitada em cada caso.
-#fazendo...
+#fazendo
