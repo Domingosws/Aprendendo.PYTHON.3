@@ -6,6 +6,7 @@
 #[ 4 ] novos números
 #[ 5 ] sair do programa
 #Seu programa deverá realizar a operação solicitada em cada caso.
+from time import sleep
 n1 = int(input('\033[1;36mPrimeiro valor: '))
 n2 = int(input('Segundo valor:\033[m '))
 opção = 0
@@ -30,11 +31,12 @@ while opção != 5:
         print('\033[1;35mEntre {} e {} o maior valor é {}\033[m'.format(n1, n2, maior))
     elif opção == 4:
         print('\033[1;35mInforme os números novamente:\033[m')
-        n1 = int(input('\033[1;33mPrimerio valor\033[m'))
+        n1 = int(input('\033[1;33mPrimerio valor:\033[m'))
         n2 = int(input('\033[1;33mSegundo valor:\033[m'))
     elif opção == 5:
         print('\033[1;35mFinalizado...\033[m')
     else:
-        print('\033[1;31mOpção inválida. Tente novamente\033[m')
-        print('--'* 10)
+        print('\033[1;31mOpção inválida. Tente novamente.\033[m')
+        print('*-*-' * 10)
+        sleep(5)
 print('\033[1;37mFim do programa!\033[m')
