@@ -17,4 +17,3 @@ while mais != 0:
     print('PAUSA')
     mais = int(input('Quantos termos você quer mostrar a mais? '))
 print('Progressão finalizada com {} termos mostrados.'.format(total))
-
