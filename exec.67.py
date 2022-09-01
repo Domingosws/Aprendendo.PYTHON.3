@@ -14,4 +14,3 @@ while True:
     cont += 1
     s += n
 print(f'A soma {cont} valores foi {s}.')
-
