@@ -29,4 +29,3 @@ while True:
     print('\033[1;34mVamos jogar novamente...')
     print(f'GAME OVER! Você venceu {v} vezes.\033[m')
 
-
